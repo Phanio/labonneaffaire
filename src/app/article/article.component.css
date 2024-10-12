@@ -1,0 +1,12 @@
+.show {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.noLike {
+    background-color: blue;
+    color: wheat;
+}

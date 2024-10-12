@@ -1,0 +1,10 @@
+<div>
+    <h1>{{message}}</h1>
+    <div class="row g-3">
+        <div class="col" *ngFor="let element of liste">
+            <app-article [idArticle]="element.id" [titreArticle]="element.titreArticle" [dispo]="element.dispo" [prixArticle]="element.prixArticle" (info)="onAffiche($event)"></app-article>
+        </div>
+
+
+    </div>
+</div>
